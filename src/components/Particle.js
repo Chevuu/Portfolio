@@ -14,13 +14,17 @@ function Particle() {
               value_area: 1500,
             },
           },
+          move: {
+            direction: "none",
+            enable: true,
+            outMode: "bounce",
+            random: false,
+            speed: 0.5,
+            straight: false,
+          },
           line_linked: {
             enable: false,
             opacity: 0.03,
-          },
-          move: {
-            direction: "right",
-            speed: 0.05,
           },
           size: {
             value: 1,
