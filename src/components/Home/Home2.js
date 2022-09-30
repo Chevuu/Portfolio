@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I got introduced to programming through <b className="purple"> web development</b> projects 2 years ago.
+              Since than I learned a lot more in that field and I'm striving to learn more. I am a 2nd year Computer 
+              Science student at TU Delft. Now, I'm focusing on extending my knowledge of <b className="purple"> low
+              level languages (VHDL)</b> and working on fully moving to Linux.
+              <br /><br />
+              I am most comfortable with <i><b className="purple"> Java and its frameworks.</b></i>. However, I can 
+              confidently manage working with classics like <i><b className="purple"> C++, Javascript and Python</b></i>.
+              <br /><br />
+              Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
+              <i><b className="purple">{" "}Modern Javascript Library and Frameworks</b></i>&nbsp; like<i><b className="purple">
+              React.js and Next.js</b></i>
+              <br /><br />
+              I am open for work. I'd be glad to work with some of yall on a project. If you have any ideas or questions for me,
+              don't hesitate to <i><b className="purple"> contact me</b></i>. Peace 🤙
             </p>
           </Col>
           <Col md={4} className="myAvtar">
