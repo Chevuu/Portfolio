@@ -140,7 +140,7 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
@@ -169,7 +169,7 @@ button:focus {
   padding: 0.8rem 1rem !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -294,7 +294,7 @@ button:focus {
   color: #a1920d !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -310,7 +310,7 @@ button:focus {
   padding-top: 9em !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
@@ -416,7 +416,7 @@ button:focus {
   text-align: center !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
   }
@@ -565,7 +565,7 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
   }
@@ -593,7 +593,7 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
   }
@@ -624,7 +624,7 @@ button:focus {
   padding-left: 80px !important;
 }
 
-@media (max-width: 997px) {
+@media (max-width: 767px) {
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
