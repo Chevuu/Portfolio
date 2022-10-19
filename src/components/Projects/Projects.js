@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import reziser from "../../Assets/Projects/reziserWebsite.png";
+import taskTracker from "../../Assets/Projects/taskTracker.png";
+import patientManager from "../../Assets/Projects/PatientManager.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -23,27 +23,25 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={patientManager}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Patient Manager"
+              description="An application that will help easily manage patients and store them in a database. The basic front‑end is done in Angular which I have to learn more about, while back‑end architecture is already done in Spring Boot. The application is not yet finished or deployed."
+              ghLink="https://github.com/Chevuu/Patient-Manager"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={taskTracker}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Task Tracker"
+              description="This is my first project using React. App uses JSON Server which I didn't host on Glitch or Heroku yet. In future some more attention will be given to this project."
+              ghLink="https://github.com/Chevuu/Task-tracker"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -52,20 +50,20 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={reziser}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Caffe Website"
+              description="This is my first web-dev project ever. It was meant to be sold as the official website of a caffe. It was a great practice, experience, and an introduction to my computer science journey. Many things I would change, now that i gained experience, but we all started somewhere. I am putting this here cause it shows how much I progressed in a year."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://competent-curran-b84101.netlify.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -86,7 +84,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
