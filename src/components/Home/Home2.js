@@ -4,7 +4,7 @@ import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,20 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I got introduced to programming through <b className="purple"> web development</b> projects 2 years ago.
-              Since than I learned a lot more in that field and I'm striving to learn more. I am a 2nd year Computer 
-              Science student at TU Delft. Now, I'm focusing on extending my knowledge of <b className="purple"> low
-              level languages (VHDL)</b> and working on fully moving to Linux.
-              <br /><br />
-              I am most comfortable with <i><b className="purple"> Java and its frameworks.</b></i>. However, I can 
-              confidently manage working with classics like <i><b className="purple"> C++, Javascript and Python</b></i>.
-              <br /><br />
-              Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
-              <i><b className="purple">{" "}Modern Javascript Library and Frameworks</b></i>&nbsp; like<i><b className="purple">
-              React.js and Next.js</b></i>
-              <br /><br />
-              I am open for work. I'd be glad to work with some of yall on a project. If you have any ideas or questions for me,
-              don't hesitate to <i><b className="purple"> contact me</b></i>. Peace 🤙
+              I'm in my third year at TU Delft, diving deep into Computer
+              Science and Engineering, with an expected <b className="purple">graduation date</b> in
+              January 2025. My academic journey has been enriched by an Erasmus+
+              exchange at Instituto Tecnico Lisboa and a hands-on <b className="purple">internship</b> at
+              Payaut, Amsterdam, where I improved my skills but more importantly,
+              <b className="purple">developed a passion</b>.
+              <br />
+              <br />
+              When I'm not busy with university assignments, I enjoy developing
+              <b className="purple">personal projects</b> that sharpen my skills and challenge my
+              creativity. Recently, I've been <b className="purple">exploring the intricacies of
+              deployment</b> and the nuances of long-term application
+              maintenance.
+              <br />
+              <br />
+              I’m currently searching for a <b className="purple">5,6 month opportunity starting 
+              around 1st July</b> where I can
+              contribute to a team that values innovation and agile development.
+              If you’re looking for someone who can blend analytical thinking
+              with effective problem-solving, let’s connect. I’m always eager to
+              discuss technology, potential collaborations, or the latest industry trends.
+              <br />
+              <br />
+              If you’re on the lookout for a developer with a proven track
+              record and a slightly offbeat sense of humor to keep things
+              interesting, feel free to reach out. Let’s make work enjoyable and
+              productive. <b className="purple">Peace</b> 🤙
             </p>
           </Col>
           <Col md={4} className="myAvtar">

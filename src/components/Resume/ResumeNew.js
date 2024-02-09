@@ -2,14 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Common_CV.pdf";
+import pdf from "../../Assets/../Assets/My_Current_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
-const resumeLink =
-  "https://drive.google.com/file/d/1OJUEGx4qIhXW9FUtGY01gsK2rU1UcowJ/view?usp=sharing";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
