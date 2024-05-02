@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import reziser from "../../Assets/Projects/reziserWebsite.png";
+import luckyLounge from "../../Assets/Projects/lucky-lounge.png";
+import cheChat from "../../Assets/Projects/CheChat.png";
 import taskTracker from "../../Assets/Projects/taskTracker.png";
 import patientManager from "../../Assets/Projects/PatientManager.png";
 import musicPromoter from "../../Assets/Projects/music-promoter.png";
@@ -16,7 +18,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on. I'm not super proud of most of these, biggest my biggest projects rarely end up finished.
+          Here are some projects I spent my free time on in the past few years.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -25,7 +27,7 @@ function Projects() {
               imgPath={musicPromoter}
               isBlog={false}
               title="Teezer"
-              description="This is the app i am currently working on. In future users will be able to listen to 5 seconds of a sing for free and buy the full track if wanted."
+              description="This is the app i am currently working on. In future users will be able to listen to 5 seconds of a song for free and buy the full track if wanted. Customer asked for this, I eblieve they gave up on the idea, but I will finish the project regardless."
               ghLink="https://github.com/Chevuu/MusicPromoter"
             />
           </Col>
@@ -35,7 +37,7 @@ function Projects() {
               imgPath={patientManager}
               isBlog={false}
               title="Patient Manager"
-              description="An application that will help easily manage patients and store them in a database. The basic front‑end is done in Angular which I have to learn more about, while back‑end architecture is already done in Spring Boot. The application is not yet finished or deployed."
+              description="Started this project to build a managment system for a dental clinic. Not sure why I stopped. Hopefully I can come back to it and finish it."
               ghLink="https://github.com/Chevuu/Patient-Manager"
             />
           </Col>
@@ -45,7 +47,7 @@ function Projects() {
               imgPath={taskTracker}
               isBlog={false}
               title="Task Tracker"
-              description="This is my first project using React. App uses JSON Server which I didn't host on Glitch or Heroku yet. In future some more attention will be given to this project."
+              description="This is my first project using React. App uses JSON Server which I didn't host on Glitch or Heroku yet. In future I might come back to it to host the server."
               ghLink="https://github.com/Chevuu/Task-tracker"
               demoLink="https://competent-curran-b84101.netlify.app/"
             />
@@ -56,9 +58,29 @@ function Projects() {
               imgPath={reziser}
               isBlog={false}
               title="Caffe Website"
-              description="This is my first web-dev project ever. It was meant to be sold as the official website of a caffe. It was a great practice, experience, and an introduction to my computer science journey. Many things I would change, now that i gained experience, but we all started somewhere. I am putting this here cause it shows how much I progressed in a year."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              description="My first website ever. A lot of things I would do differently if I started from scratch. This is where it all started."
+              ghLink="https://github.com/Chevuu/ReziserWebsite"
               demoLink="https://stalwart-kheer-5e67e2.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={luckyLounge}
+              isBlog={false}
+              title="Lucky Coder Lounge"
+              description="I recommend reading the GitHub README.md if you're interested."
+              ghLink="https://github.com/Chevuu/LuckyCoderLounge"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cheChat}
+              isBlog={false}
+              title="CheChat"
+              description="I wanted to try the Golang programming language so I built a very simple chat for fun."
+              ghLink="https://github.com/Chevuu/CheChat"
             />
           </Col>
         </Row>
